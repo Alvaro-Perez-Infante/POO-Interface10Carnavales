@@ -12,32 +12,32 @@ import model.Romancero;
 import model.Util;
 
 /**
- * <h2>Clase Principal,  donde realizamos de la creaci&oacute;n, modificaci&oacute;n y 
- * configuraci&oacute;n de los men&uacute;s de opciones para poder darle uso al programa.</h2>
- * @version 1.0
+ * <h2>Clase Principal, donde realizamos de la creaci&oacute;n,
+ * modificaci&oacute;n y configuraci&oacute;n de los men&uacute;s de opciones
+ * para poder darle uso al programa.</h2>
+ * 
+ * @version 2.0
  * @author &Aacute;lvaro P&eacute;rez Infante
  */
 public class Principal {
-	
+
 	/*
 	 * Creamos un objeto COAC para poder darle uso a algunos m&eacute;todos.
 	 */
 	static COAC coac = new COAC(20, 10);
 
-	
 	/*
 	 * M&eacute;etodo principal desde donde se llaman los men&uacute;s.
 	 */
 	public static void main(String[] args) {
-		
+
 		iniprogram();
 		gestionPrograma();
 	}
-	
-		
+
 	/*
-	 * M&eacute;todo que se encarga en la creaci&oacute;n de algunos 
-	 * objetos para comprobar el funcionamineto del programa.
+	 * M&eacute;todo que se encarga en la creaci&oacute;n de algunos objetos para
+	 * comprobar el funcionamineto del programa.
 	 */
 	private static void iniprogram() {
 		Chirigota ch1 = new Chirigota(10, "Jino", "Antonio", "Josefa", "Antonia", "Hospital", 28);
@@ -46,9 +46,10 @@ public class Principal {
 		Cuarteto cua1 = new Cuarteto(4, "Los Paco", "Alfonso", "Perri", "Letre", "Anime", 25);
 		Romancero rom1 = new Romancero("El Piso", "Los Alocao", "Laura", "Carlos", "Asin", "Parsero");
 	}
-	
+
 	/*
-	 * M&eacute;todo que se encarga de la gesti&oacute;n del men&uacute; del programa principal.
+	 * M&eacute;todo que se encarga de la gesti&oacute;n del men&uacute; del
+	 * programa principal.
 	 */
 	private static void gestionPrograma() {
 		int opc;
@@ -70,7 +71,8 @@ public class Principal {
 	}
 
 	/*
-	 * M&eacute;todo que se encarga de la gesti&oacute;n del men&uacute; de integrantes.
+	 * M&eacute;todo que se encarga de la gesti&oacute;n del men&uacute; de
+	 * integrantes.
 	 */
 	private static void opcIntegrantes() {
 		int opc;
@@ -86,7 +88,8 @@ public class Principal {
 	}
 
 	/*
-	 * M&eacute;todo que se encarga de la gesti&oacute;n del men&uacute; del concurso.
+	 * M&eacute;todo que se encarga de la gesti&oacute;n del men&uacute; del
+	 * concurso.
 	 */
 	private static void opcConcurso() {
 		int opc;
@@ -123,7 +126,7 @@ public class Principal {
 		Util.escribir(" 7. Ordenar por el autor.");
 		Util.escribir(" 8. Ordenar por el autor de música/letra.");
 	}
-	
+
 	/*
 	 * M&eacute;todo que muestra por pantalla el men&uacute; de integrantes.
 	 */
@@ -138,7 +141,8 @@ public class Principal {
 	}
 
 	/*
-	 * M&eacute;todo que muestra por pantalla el men&uacute; sobre la gesti&oacute;n del concurso.
+	 * M&eacute;todo que muestra por pantalla el men&uacute; sobre la gesti&oacute;n
+	 * del concurso.
 	 */
 	private static void mostrarMenuConcurso() {
 		Util.escribir("\n");
@@ -165,7 +169,7 @@ public class Principal {
 		Util.escribir(" 4 - Comparsa");
 		Util.escribir(" 5 - Coro");
 	}
-	
+
 	/*
 	 * M&eacute;todo que inscribe agrupaciones al programa.
 	 */
@@ -173,7 +177,7 @@ public class Principal {
 		Util.escribir("¿Que agrupación quieres añadir?");
 		mostrarAgrup();
 	}
-	
+
 	/*
 	 * M&eacute;todo que elimina agrupaciones del programa.
 	 */
@@ -181,41 +185,46 @@ public class Principal {
 		Util.escribir("¿Que agrupación quieres eliminar?");
 		mostrarAgrup();
 	}
-		
+
 	/*
-	 * M&eacute;todo que llama al comprardor de puntos para hacerlo funcionar y mostrarlo por pantalla.
+	 * M&eacute;todo que llama al comprardor de puntos para hacerlo funcionar y
+	 * mostrarlo por pantalla.
 	 */
 	private static void CompAgrupacionPuntos() {
 		coac.ordenar_por_puntos(null);
-		listarTodo();	
+		listarTodo();
 	}
-	
+
 	/*
-	 * M&eacute;todo que llama al comprardor de nombre para hacerlo funcionar y mostrarlo por pantalla.
+	 * M&eacute;todo que llama al comprardor de nombre para hacerlo funcionar y
+	 * mostrarlo por pantalla.
 	 */
 	private static void CompAgrupacionNombre() {
 		coac.ordenar_por_nombre();
-		listarTodo();		
+		listarTodo();
 	}
-	
+
 	/*
-	 * M&eacute;todo que llama al comprardor de autor para hacerlo funcionar y mostrarlo por pantalla.
+	 * M&eacute;todo que llama al comprardor de autor para hacerlo funcionar y
+	 * mostrarlo por pantalla.
 	 */
 	public static void CompAgrupacionAutor() {
 		coac.ordenar_por_autor();
 		listarTodo();
 	}
-	
+
 	/*
-	 * M&eacute;todo que llama al comprardor de musica y letra para hacerlo funcionar y mostrarlo por pantalla.
+	 * M&eacute;todo que llama al comprardor de musica y letra para hacerlo
+	 * funcionar y mostrarlo por pantalla.
 	 */
 	private static void CompAgrupacionMusLet() {
 		coac.ordenar_por_autor_musica_letra();
 		listarTodo();
 	}
-	
+
 	/*
-	 * M&eacute;todo encargado de listar todas las agrupaciones y mostrarlas por pantalla.
+	 * M&eacute;todo encargado de listar todas las agrupaciones y mostrarlas por
+	 * pantalla.
 	 */
 	private static void listarTodo() {
 		Agrupacion[] aux = coac.getAgrupaciones();
@@ -225,7 +234,7 @@ public class Principal {
 			}
 		}
 	}
-	
+
 	/*
 	 * M&eacute;todo que modifica e inserta integrantes.
 	 */
@@ -233,7 +242,7 @@ public class Principal {
 		Integrante i = new Integrante();
 		coac.insertarIntegrante(i);
 	}
-	
+
 	/*
 	 * M&eacute;todo que modifica y elimina integrantes.
 	 */
@@ -241,7 +250,7 @@ public class Principal {
 		listaIntegrantes();
 		System.out.println(("¿Que integrante quieres eliminar?"));
 	}
-	
+
 	/*
 	 * M&eacute;todo que lista y muestra todos los integrantes del programa.
 	 */
@@ -253,9 +262,10 @@ public class Principal {
 			}
 		}
 	}
-	
+
 	/*
-	 * M&eacute;todo que asigna los puntos que decida el usuario a cualquier agrupaci&oacute;m
+	 * M&eacute;todo que asigna los puntos que decida el usuario a cualquier
+	 * agrupaci&oacute;m
 	 */
 	private static void asignarPuntos() {
 		AgrupacionOficial[] aux = (AgrupacionOficial[]) coac.getAgrupaciones();
@@ -264,7 +274,7 @@ public class Principal {
 		mostrarAgrup();
 		Integer puntos = Util.leerInt("¿Cuantos puntos? : ");
 	}
-	
+
 	/*
 	 * M&eacute;todo para finalizar el programa
 	 */

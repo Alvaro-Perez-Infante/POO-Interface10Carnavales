@@ -20,7 +20,7 @@ import model.Util;
 public class Principal {
 	
 	/*
-	 * Creamos un objeto COAC para poder darle uso a algunos m&eacute;todos
+	 * Creamos un objeto COAC para poder darle uso a algunos m&eacute;todos.
 	 */
 	static COAC coac = new COAC(20, 10);
 

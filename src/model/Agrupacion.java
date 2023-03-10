@@ -4,7 +4,7 @@ package model;
  * <h2>Clase Agrupacion, donde realizamos las agrupaciones de los distintos
  * tipos de carnavales existentes y clasificados en este programa.</h2>
  * 
- * @version 4.0
+ * @version 5.0
  * @author &Aacute;lvaro P&eacute;rez Infante
  */
 public abstract class Agrupacion implements Comparable<Agrupacion> {
@@ -123,14 +123,6 @@ public abstract class Agrupacion implements Comparable<Agrupacion> {
 	 *         espect&aacute;culo van a dar en el escenario.
 	 */
 	public abstract String hacerTipo();
-
-	/**
-	 * M&eacute;todo que heredar&aacute;n las clases hijas de esta.
-	 * 
-	 * @return Devuelve una cadena de texo que nos indica el tipo de Agrupacion que
-	 *         vamos a escuchar.
-	 */
-	public abstract String amoAescucha();
 
 	/**
 	 * M&eacute;todo comparador de la clase teniendo encuenta el nombre de la

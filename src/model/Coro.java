@@ -4,7 +4,7 @@ package model;
  * <h2>Clase Coro donde creamos y modificamos este tipo de agrupacion. Con todos
  * sus m&eacute;todos respectivos, getters y setters.</h2>
  * 
- * @version 13.0
+ * @version 14.0
  * @author &Aacute;lvaro P&eacute;rez Infante
  */
 public class Coro extends AgrupacionOficial {

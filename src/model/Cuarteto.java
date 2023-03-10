@@ -4,7 +4,7 @@ package model;
  * <h2>Clase Cuarteto donde creamos y modificamos este tipo de agrupacion. Con
  * todos sus m&eacute;todos respectivos, getters y setters.</h2>
  * 
- * @version 13.0
+ * @version 14.0
  * @author &Aacute;lvaro P&eacute;rez Infante
  */
 public class Cuarteto extends AgrupacionOficial implements Callejera{
@@ -101,6 +101,11 @@ public class Cuarteto extends AgrupacionOficial implements Callejera{
 		return "Amo a escuchá el Cuarteto : " + super.getNombre();
 	}
 
+	/**
+	 * M&eacute;metodo toString que nos permite transformar el c&oacute;digo a un
+	 * lenguaje que podemos entender y as&iacute; poder probar el funcionamiento del
+	 * programa.
+	 */
 	@Override
 	public String toString() {
 		return "Cuarteto: Numero de Miembros = " + getNumMiembros() + ", del tipo = " + hacerTipo() + ", "

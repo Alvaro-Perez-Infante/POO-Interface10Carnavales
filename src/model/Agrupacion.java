@@ -4,7 +4,7 @@ package model;
  * <h2>Clase Agrupacion, donde realizamos las agrupaciones de los distintos
  * tipos de carnavales existentes y clasificados en este programa.</h2>
  * 
- * @version 13.0
+ * @version 14.0
  * @author &Aacute;lvaro P&eacute;rez Infante
  */
 public abstract class Agrupacion implements Comparable<Agrupacion> {

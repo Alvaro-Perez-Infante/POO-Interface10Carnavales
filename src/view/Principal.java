@@ -42,7 +42,7 @@ public class Principal {
 	private static void iniprogram() {
 		Chirigota ch1 = new Chirigota(10, "Jino", "Antonio", "Josefa", "Antonia", "Hospital", 28);
 		Comparsa com1 = new Comparsa("Arpaso", "Claudia", "Juan", "Marcos", "Josefa", "Pokemon", 40);
-		Coro cor1 = new Coro("Del tiron", "Austin", "Clara", "Eustaquio", "Penelope", 34);
+		Coro cor1 = new Coro(12, 32, "Del tiron", "Austin", "Clara", "Eustaquio", "Penelope", 34);
 		Cuarteto cua1 = new Cuarteto(4, "Los Paco", "Alfonso", "Perri", "Letre", "Anime", 25);
 		Romancero rom1 = new Romancero("El Piso", "Los Alocao", "Laura", "Carlos", "Asin", "Parsero");
 	}

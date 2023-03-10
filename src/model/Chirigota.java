@@ -4,7 +4,7 @@ package model;
  * <h2>Clase Chirigota donde creamos y modificamos este tipo de agrupacion. Con
  * todos sus m&eacute;todos respectivos, getters y setters.</h2>
  * 
- * @version 11.0
+ * @version 12.0
  * @author &Aacute;lvaro P&eacute;rez Infante
  */
 public class Chirigota extends AgrupacionOficial implements Callejera {
@@ -38,7 +38,7 @@ public class Chirigota extends AgrupacionOficial implements Callejera {
 	 *                         cadena de texto.
 	 * @param puntosObtenidos2 El sexto par&aacute;metro de la clase, un
 	 *                         n&uacute;mero entero.
-	 * @param nomCuples        El s&eacute;ptimo y &uacute;ltimo par&aacute;metro de
+	 * @param numCuples        El s&eacute;ptimo y &uacute;ltimo par&aacute;metro de
 	 *                         la clase, un n&uacute;mero entero.
 	 */
 	public Chirigota(Integer numCuples, String nombre, String autor, String autorMusica, String autorLetras,

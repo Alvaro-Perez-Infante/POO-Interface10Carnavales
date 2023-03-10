@@ -5,7 +5,7 @@ package model;
  * todos sus datos y con todos sus m&eacute;todos respectivos, getters y
  * setters.</h2>
  * 
- * @version 14.0
+ * @version 15.0
  * @author &Aacute;lvaro P&eacute;rez Infante
  */
 public class Integrante {

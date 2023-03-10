@@ -4,7 +4,7 @@ package model;
  * <h2>Clase Comparsa donde creamos y modificamos este tipo de agrupacion. Con
  * todos sus m&eacute;todos respectivos, getters y setters.</h2>
  * 
- * @version 14.0
+ * @version 15.0
  * @author &Aacute;lvaro P&eacute;rez Infante
  */
 public class Comparsa extends AgrupacionOficial implements Callejera {

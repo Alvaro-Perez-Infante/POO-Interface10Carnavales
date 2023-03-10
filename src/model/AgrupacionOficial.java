@@ -5,7 +5,7 @@ package model;
  * tipos de carnavales existentes y clasificados en este programa como
  * agrupaciones que oficialmente est&aacute;n en la competici&oacute;n.</h2>
  * 
- * @version 14.0
+ * @version 15.0
  * @author &Aacute;lvaro P&eacute;rez Infante
  */
 public abstract class AgrupacionOficial extends Agrupacion {

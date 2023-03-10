@@ -16,7 +16,7 @@ import model.Util;
  * modificaci&oacute;n y configuraci&oacute;n de los men&uacute;s de opciones
  * para poder darle uso al programa.</h2>
  * 
- * @version 6.0
+ * @version 7.0
  * @author &Aacute;lvaro P&eacute;rez Infante
  */
 public class Principal {

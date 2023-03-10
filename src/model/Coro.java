@@ -45,10 +45,18 @@ public class Coro extends AgrupacionOficial{
 
 	@Override
 	public String caminitoDelFalla() {
-		return "El coro : " + super.getNombre()+ " va caminito del Falla." ;
+		return "El coro " + super.getNombre() + " va caminito del Falla";
+	}
+
+	@Override
+	public String amoAescucha() {
+		return "Amo a escuchá el Coro : " + super.getNombre();
 	}
 	
-	
+	@Override
+	public String toString() {
+		return "Coro " + super.toString() + ", Numero de bandurrias = " + numBandurrias + ", Numero de guitarras " + numGuitarras;
+	}
 	
 	
 	

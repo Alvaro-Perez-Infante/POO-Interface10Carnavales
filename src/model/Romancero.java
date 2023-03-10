@@ -36,5 +36,10 @@ public class Romancero extends Agrupacion implements Callejera{
 	public String amoAescucha() {
 		return "Amo a escuchá el Romancero : " + super.getNombre();
 	}
+
+	@Override
+	public String caminitoDelFalla() {
+		return "El Romancero " + super.getNombre() + " va caminito del Falla";
+	}
 	
 }

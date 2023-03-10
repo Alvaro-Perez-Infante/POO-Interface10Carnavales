@@ -14,7 +14,7 @@ import model.Integrante;
  * <h2>Clase COAC (Controller), donde realizamos de la creaci&oacute;n y
  * modificaci&oacute;n de los conjuntos: Integrante y Agrupacion.</h2>
  * 
- * @version 3.0
+ * @version 4.0
  * @author &Aacute;lvaro P&eacute;rez Infante
  */
 public class COAC {

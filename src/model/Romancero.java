@@ -1,14 +1,15 @@
 package model;
 
-public class Romancero extends Agrupacion implements Callejera{
+public class Romancero extends Agrupacion implements Callejera {
 
 	private String temCartelon;
-	
+
 	public Romancero() {
 		super();
 	}
 
-	public Romancero(String temCartelon, String nombre, String autor, String autorMusica, String autorLetras, String tipo) {
+	public Romancero(String temCartelon, String nombre, String autor, String autorMusica, String autorLetras,
+			String tipo) {
 		super(nombre, autor, autorMusica, autorLetras, tipo);
 		setTemCartelon(temCartelon);
 	}
@@ -36,10 +37,4 @@ public class Romancero extends Agrupacion implements Callejera{
 	public String amoAescucha() {
 		return "Amo a escuchá el Romancero : " + super.getNombre();
 	}
-
-	@Override
-	public String caminitoDelFalla() {
-		return "El Romancero " + super.getNombre() + " va caminito del Falla";
-	}
-	
 }

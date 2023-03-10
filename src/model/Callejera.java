@@ -4,7 +4,7 @@ package model;
  * <h2>Interfaz Callejera que se implementar&aacute; a las clases a las clases
  * necesarias junto con sus m&eacute;todos.</h2>
  * 
- * @version 5.0
+ * @version 6.0
  * @author &Aacute;lvaro P&eacute;rez Infante
  */
 public interface Callejera {

@@ -4,13 +4,13 @@ package model;
  * <h2>Clase Chirigota donde creamos y modificamos este tipo de agrupacion. Con
  * todos sus m&eacute;todos respectivos, getters y setters.</h2>
  * 
- * @version 10.0
+ * @version 11.0
  * @author &Aacute;lvaro P&eacute;rez Infante
  */
 public class Chirigota extends AgrupacionOficial implements Callejera {
 
 	/**
-	 * N&uacute;mero de cuples que tiene la Chirigota. Un n&uacute;mero en
+	 * N&uacute;mero de cuples que tiene la Chirigota. Un n&uacute;mero entero.
 	 */
 	private Integer numCuples;
 
@@ -24,7 +24,7 @@ public class Chirigota extends AgrupacionOficial implements Callejera {
 
 	/**
 	 * M&eacute;todo construtor con todas las variables de la clase
-	 * AgrupacionOficial.
+	 * Chirigota.
 	 * 
 	 * @param nombre           El primer par&aacute;metro del m&eacute;todo, una
 	 *                         cadena de texto.

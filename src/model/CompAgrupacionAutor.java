@@ -5,7 +5,7 @@ import java.util.Comparator;
 /**
  * <h2>Clase Comparator de Agrupacion.</h2>
  * 
- * @version 10.0
+ * @version 11.0
  * @author &Aacute;lvaro P&eacute;rez Infante
  */
 public class CompAgrupacionAutor implements Comparator<Agrupacion>{
